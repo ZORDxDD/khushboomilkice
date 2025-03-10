@@ -1,6 +1,8 @@
 import React from 'react';
 import { IceCream, Star, Award, Phone, Mail, MapPin} from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/react"
+
 
 function App() {
   const navigate = useNavigate();
