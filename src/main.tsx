@@ -5,6 +5,7 @@ import App from './App.tsx';
 import Flavors from './Flavors.tsx';
 import './index.css';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
